@@ -1,0 +1,17 @@
+$sm: 420px;
+$md-s: 540px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+
+@mixin max-w($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin min-w($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}

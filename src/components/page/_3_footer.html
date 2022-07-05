@@ -1,0 +1,177 @@
+<footer class="footer">
+  <div class="footer__top">
+    <div class="container container--small">
+      <div class="footer__top-inner">
+        <div class="footer__item">
+          <a class="footer__logo logo" href="">
+            <img class="logo__img" src="images/logo.png" alt="Логотип">
+          </a>
+          <div class="footer__text">
+            <p>
+              WETrade is committed to making your financial dreams a reality with the help of our professional staff
+              and
+              years of experience
+            </p>
+          </div>
+
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">Working Hours</div>
+          <div class="footer__text">
+            <p>
+              Our support available to help you 6 days a week.
+            </p>
+          </div>
+          <div class="footer__schedule">
+            Monday to Friday
+            <span class="footer__time">9am - 5pm</span>
+          </div>
+          <div class="footer__schedule">
+            Saturday
+            <span class="footer__time">9am - 2pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container container--small">
+      <div class="footer__bottom-inner">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a class="footer__link link" href="">
+              Terms and Conditions
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link link" href="">
+              Pivacy
+            </a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__link link" href="">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a class="to-top" href="#body"></a>
+<div class="overlay"></div>
+
+<!-- popap-form -->
+<div class="popap-form js-register js-hide">
+  <form class="popap-form__inner">
+    <div class="popap-form__title">Register</div>
+
+    <ul class="progressbar">
+      <li class="progressbar__item progressbar__item--active progressbar__item--text">
+        <span class="progressbar__border-ball"></span>
+      </li>
+      <li class="progressbar__item">
+        <span class="progressbar__border-ball"></span>
+      </li>
+    </ul>
+
+    <div class="popap-form__text">
+      <span>*</span>Required Field
+    </div>
+
+    <fieldset class="popap-form__page popap-form__page--active">
+
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Full Name<span>*</span></span>
+        <input class="popap-form__input" type="name" required>
+      </label>
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Email Address<span>*</span></span>
+        <input class="popap-form__input" type="email" name="email" required>
+      </label>
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Phone Number<span>*</span></span>
+        <input class="popap-form__input" type="tel" name="tel" required>
+      </label>
+      <div class="popap-form__btns">
+        <button class="btn js-next" type="button">Continue</button>
+      </div>
+    </fieldset>
+
+    <fieldset class="popap-form__page">
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Referral ID</span>
+        <input class="popap-form__input" type="number">
+      </label>
+
+      <label class="select  right-arrow">
+        <div class="hide">Country<span>*</span></div>
+        <select class="hide js-select" name="country" data-validate-field="country" required>
+          <option value="Россия"> </option>
+          <option value="Китай" selected>Китай</option>
+          <option value="Индия">Индия</option>
+          <option value="Бразилия">Бразилия</option>
+          <option value="Мексика">Мексика</option>
+        </select>
+        <div class="select__header popap-form__input">
+          <span class="select__current"> </span>
+        </div>
+        <ul class="select__body">
+
+        </ul>
+      </label>
+
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">
+          Create Password<span>*</span>
+        </span>
+        <input class="popap-form__input" type="password" name="password" required>
+      </label>
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">
+          Confirm Password<span>*</span>
+        </span>
+        <input class="popap-form__input" type="password" name="password" required>
+      </label>
+      <div class="popap-form__btns">
+        <button class="btn btn--gray js-previous" type="button">Previous</button>
+        <button class="btn" type="submit">Register</button>
+      </div>
+    </fieldset>
+
+    <div class="popap-form__account">
+      Have an account?
+      <button class="popap-form__btn">Log in</button>
+    </div>
+  </form>
+</div>
+
+<div class="popap-form js-login js-hide">
+  <form class="popap-form__inner">
+    <div class="popap-form__title">Login</div>
+
+    <div class="popap-form__text">
+      <span>*</span>Required Field
+    </div>
+
+    <div class="popap-form__body">
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Login</span>
+        <input class="popap-form__input" type="name" required>
+      </label>
+      <label class="popap-form__label">
+        <span class="popap-form__label-text">Password</span>
+        <input class="popap-form__input" type="password" name="password" required>
+      </label>
+    </div>
+
+    <button class="btn" type="submit">Log in</button>
+
+    <div class="popap-form__account">
+      Have an account?
+      <button class="popap-form__btn">Log in</button>
+    </div>
+  </form>
+</div>

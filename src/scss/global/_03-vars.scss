@@ -1,0 +1,14 @@
+$black: #121419;
+$black25: #1e2125;
+$black11: #0D0F11;
+$gray: #747475;
+$gray4: #C4C4C4;
+
+
+$blue: #0057ff;
+$white: white;
+$whitec: #F9FAFC;
+
+@include font-face(Raleway, Raleway-Bold, 700);
+@include font-face(Raleway, Raleway-SemiBold, 600);
+@include font-face(Raleway, Raleway-Medium, 500);

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('components/page/_1_head.html',{
+'title': 'WEtrade | Blog Page',
+'favicon': 'favicon.ico',
+'favicon192x192': 'images/favicon/android-chrome-192x192.png',
+'favicon512x512': 'images/favicon/android-chrome-512x512.png',
+'favicon16x16': 'images/favicon/favicon-16x16.png',
+'favicon32x32': 'images/favicon/favicon-32x32.png',
+'apple-touch-icon': 'images/favicon/apple-touch-icon.png',
+})
+
+<body id="body">
+  @@include('components/page/_2_header.html')
+  <main class="main">
+
+    <section class="hero shadow" style="background-image: url(images/hero-bg2.jpg);">
+      <div class="container">
+        <div class="hero__info">
+          <h1 class="hero__title">
+            Blog
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <article class="articles-tabs">
+      <div class="container">
+        <div class="articles-tabs__inner">
+          <button class="articles-tabs__show-menu js-hide">
+            Show article navigation
+          </button>
+          <ul class="articles-tabs__menu js-hide">
+            <li class="articles-tabs__tab">
+              <button class="articles-tabs__btn articles-tabs__btn--active right-arrow" type="button">Crypto Currency Investment</button>
+            </li>
+            <li class="articles-tabs__tab">
+              <button class="articles-tabs__btn right-arrow" type="button">Forex Trading</button>
+            </li>
+            <li class="articles-tabs__tab">
+              <button class="articles-tabs__btn right-arrow" type="button">Stock Trading</button>
+            </li>
+            
+          </ul>
+
+          <ul class="articles-tabs__list">
+            <li class="articles-tabs__item">
+              <article class="article article--active">
+                <h2 class="title">Crypto Currency Investment</h2>
+                <div class="article__body">
+                  <div class="article__text">
+                    <p>
+                      Bitcoin trading is a unique platform for trading bitcoin against other cryptocurrencies just like
+                      one would do for forex trading. Just like forex trading it dependent on one’s ability to predict
+                      trends and price shift. The major advantage that bitcoin trading has over regular stock and forex
+                      trading is that fact that prices are extremely volatile hence there are multiple opportunities for
+                      profit in just the course of a day
+                    </p>
+                  </div>
+                  <div class="article__text article__text--black">
+                    <p>
+                      While long term traders prefer to hold their bitcoin positions for extended periods of time, day
+                      traders have discovered that Bitcoin is lucrative for many reasons:
+                    </p>
+                    <ul>
+                      <li>
+                        Crypto trading is more volatile than stock trading.
+                      </li>
+                      <li>
+                        Bitcoin is traded 24 hours per day 7 days a week.
+                      </li>
+                      <li>
+                        Bitcoin allows for big trades with low overhead.
+                      </li>
+                      <li>
+                        Bitcoin is the most liquid form of cryptocurrency.
+                      </li>
+                      <li>
+                        Multiple trading opportunities will emerge within a 24 hour period.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="articles-tabs__item">
+              <article class="article">
+                <h2 class="title">Forex Trading</h2>
+                <div class="article__body">
+                  <div class="article__text">
+                    <p>
+                      The Foreign Exchange market, also called FOREX or FX, is the global market for currency trading.
+                      With a daily volume of more than $5.3 trillion, it is the biggest and most exciting financial
+                      market
+                      in the world. Whether you sell EUR 100 to buy US dollars at the airport or a bank exchanges 100
+                      million US dollars for Japanese yen with another bank, both are FOREX deals. The players on the
+                      FOREX market range from huge financial organizations, managing billions, to individuals trading a
+                      few hundred dollars.
+                    </p>
+                  </div>
+                  <div class="article__text article__text--black">
+                    <p>
+                      On the FOREX market one currency is exchanged for another. The single most important thing with
+                      respect to FOREX market is the exchange rate between two currencies (a currency pair).
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+            <li class="articles-tabs__item">
+              <article class="article">
+                <h2 class="title">Stock Trading</h2>
+                <div class="article__body">
+                  <div class="article__text">
+                    <p>
+                      We provide online brokerage services for over 1000 customer accounts and processes over 3,000
+                      trades
+                      per day. With our history in the stock market we have overtime been able to position ourselves
+                      properly so that we are now able to predict market trends with th aid of tools like D Ameritrade's
+                      thinkorswim which is home to an impressive array of tools.
+                    </p>
+                  </div>
+                  <div class="article__text article__text--black">
+                    <p>
+                      In the process of searching for a well-rounded broker, finding the right mix is no easy task.
+                      Trade
+                      costs, trade platforms, tools, research, and customer service all are important to investors. We
+                      are
+                      here to end that search and make stock broking less complex and very profitable
+                    </p>
+                  </div>
+                  <div class="article__text">
+                    <p>
+                      Whether it be company profiling, advanced earnings analysis, plotting FRED data, charting social
+                      sentiment, backtesting and replaying historical markets tick by tick, viewing economic and
+                      corporate
+                      calendars, creating and conducting real-time stock scans, sharing charts and workspace layouts, or
+                      performing advanced options analysis, the rabbit hole goes as far as any trader's imagination will
+                      take them.
+                    </p>
+                    <p>
+                      Focusing on two more recent innovations, adding Federal Reserve Economic Data (FRED) and the new
+                      earnings analysis tool, investors can begin to appreciate the endless brain hub stationed at
+                      thinkorswim’s Chicago office. Starting with FRED, a publicly accessible US Government database of
+                      over 400,000 economic data points; think GDP, CPI, treasury rates, median household income, etc.
+                      FRED data is used by institutional investors, hedge funds, and other sophisticated trading
+                      operations. In its never-ending quest to level the playing field, the thinkorswim team decided to
+                      download all the data, process it, build a custom interface to graph it, and brought it to all TD
+                      Ameritrade clients
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  @@include('components/page/_3_footer.html')
+  @@include('components/page/_4_scripts.html')
+</body>
+
+</html>
